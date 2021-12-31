@@ -17,7 +17,8 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Architects Daughter'],
+        mono: ['Segoe UI'],
       },
       colors: {
         primary: colors.teal,

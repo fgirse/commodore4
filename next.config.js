@@ -1,6 +1,14 @@
+/* eslint-disable prettier/prettier */
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+
+module.exports = {
+  images: {
+    domains: ['football-data.org'],
+  },
+}
+
 
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
@@ -21,6 +29,18 @@ module.exports = withBundleAnalyzer({
         },
       ],
     })
+
+    module.exports = {
+      webpack(config) {
+        config.module.rules.push({
+          test: /\.svg$/i,
+          issuer: /\.[jt]sx?$/,
+          use: ['@svgr/webpack'],
+        })
+    
+        return config
+      },
+    }
 
     config.module.rules.push({
       test: /\.svg$/,

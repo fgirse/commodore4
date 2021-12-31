@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
+  title: 'Die Kiezkneipe- Rettungsanker Freiburg',
+  author: 'Frank Girse',
+  headerTitle: '+49 761 xxx xxx',
   description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  language: 'de',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',

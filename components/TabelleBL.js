@@ -4,7 +4,7 @@ import axios from 'axios'
 import team from 'pages/team'
 import { data } from 'autoprefixer'
 import Image from 'next/image'
-import SVGSCFreiburgEmblem from'components/icons/svg/SVGSCFREIBURG';
+import SVGSCFreiburgEmblem from'@/components/icons/svg/SvgScFreiburg';
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 
 

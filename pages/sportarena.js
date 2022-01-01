@@ -9,7 +9,7 @@ import { Heading2 } from "@/components/Headings/Heading2.styles";
 import React, { useMemo } from "react";
 import Image from 'next-images';
 import StyledHeroSportarena from "@/components/HeroSportarena";
-import SVGSCFreiburgEmblem from "../components/icons/svg/SVGSCFreiburg.js"
+import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 
 

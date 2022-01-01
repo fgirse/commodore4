@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { StyledButton } from "@/components/Buttons/Button.styles"
 import { Heading1 } from "@/components/Headings/Heading1.styles";
 import StyledHeroSportarena from "@/components/HeroSportarena";
-import SVGSCFreiburgEmblem from "../components/icons/svg/SVGSCFreiburg.js"
+import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 import LogoAlt from '../components/icons/svg/logoAlt';
 

@@ -121,7 +121,7 @@ export default function Home() {
           </div>
           <Text>
            <p className="mt-10 text-4xl text-center text-sans font-bold uppercase">Ganter </p>
-           <p className="text-xl text-center">leckeres Ganter vom Fass</p>
+           <p className="text-xl text-center">leckeres Ganter Bräu vom Fass</p>
           </Text>
         </Card>
     
@@ -142,7 +142,7 @@ export default function Home() {
           </div>
           <Text>
            <p className="mt-10 text-4xl text-center text uppercase font-bold" >Astra Bier</p>
-           <p className="text-xl text-center">natürlich direkt vom Kiez Ganter vom Fass</p>
+           <p className="text-xl text-center">natürlich direkt vom Kiez in denA nker</p>
            </Text>
            </Card>
     <Card
@@ -171,7 +171,7 @@ export default function Home() {
             </section>
            
               <Heading1 className="mt-2">Impressionen aus dem Rettungsanker</Heading1>
-              <div className='w-3/12 absolute'>
+              <div className='w-2/12 absolute transform -translate-y-80'>
             <Image src="/Albers_Illu_white.png" top-5 alt="Impressionen" height="208 " width="195" layout="responsive"/>
           </div>
       

@@ -6,7 +6,7 @@ const headerNavLinks = [
   { href: '/drinks', title: 'Drinks-Snacks' },
   { href: '/sportarena', title: 'Sportarena' },
   { href: '/event', title: 'Event' },
-  { href: '/Kontakt', title: 'Wohin?' },
+  { href: '/Kontact', title: 'Wohin?'} 
 ]
 
 export default headerNavLinks

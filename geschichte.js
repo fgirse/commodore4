@@ -6,13 +6,13 @@ import StyledHeroEvent from '../components/HeroEvent';
 import Heading1 from '@/components/Headings/Heading1'; 
 import Image from 'next/image';                                                                                                                                                                                                                                                                                                                                                                                                                             
 
-function kontakt() {
+function geschichte() {
     return (
         <>
         <div className="mx-auto">
          <StyledHeroEvent>
             
-              <Heading1 className="">Wohin?</Heading1>
+              <Heading1 className="">Die Geschichte</Heading1>
     
             
             <div className="mt-44 p-6 flex flex-col items-start gapy-5 w-4/12">
@@ -32,4 +32,4 @@ function kontakt() {
         </>
         )
    }
-   export default kontakt
+   export default geschichte
